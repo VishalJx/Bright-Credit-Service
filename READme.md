@@ -181,33 +181,3 @@ pre-commit install
 # Run style checks
 pre-commit run --all-files
 ```
-
-## Deployment
-
-### Prerequisites
-- Python 3.8+
-- Redis Server
-- Database (SQLite/PostgreSQL/MySQL)
-
-### Production Setup
-1. Configure production settings
-2. Set up SSL certificates
-3. Configure database
-4. Set up monitoring
-5. Deploy using your preferred method (Docker, etc.)
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For support, email support@brightcredit.com or open an issue in the GitHub repository.
