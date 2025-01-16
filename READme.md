@@ -166,18 +166,3 @@ GET /api/billing/get-statement/?loan_id=uuid
 - Daily interest accrual
 - Late payment penalties
 
-## Development
-
-### Running Tests
-```bash
-python manage.py test
-```
-
-### Code Style
-```bash
-# Install pre-commit hooks
-pre-commit install
-
-# Run style checks
-pre-commit run --all-files
-```
